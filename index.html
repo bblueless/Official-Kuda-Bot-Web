@@ -5,7 +5,7 @@
 
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <title>Hello Kuda, world!</title>
+    <title>Hello, world!</title>
     <link rel="icon" href="img/favicon.png" />
 
     <!-- [[ CSS ]] -->
@@ -14,7 +14,7 @@
 
     <!-- [[ Basic Meta Tags ]] -->
 
-    <meta name="title" content="Kuda Official Web" />
+    <meta name="title" content="Hello, World!" />
     <meta name="description" content="Website description." />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -60,7 +60,7 @@
 
       <!-- [[ Functions ]] -->
 
-      <div class="min-h-screen w-screen px-44 pt-24 ">
+      <div class="min-h-screen w-screen px-44 pt-24">
         <h2 class="text-[Poppins] text-center text-2xl font-extrabold text-indigo-400">What can Kuda do?</h2>
         <div class="mt-5 flex justify-between rounded-md bg-blue-500 bg-opacity-10 p-2.5 px-5 font-[Poppins] text-sm text-slate-400">
           <p>Welcome to kuda docs! Remember the official & predermined Kuda prefix is <b>k!</b>< We're working on a dashboard for a better experience!</p>
@@ -70,10 +70,9 @@
           </svg>
         </div>
         <div class="grid grid-cols-4 gap-5 pt-10 pb-10">
-          <div class="rounded-md bg-[#101013] p-5 px-7 shadow-xl">
+          <div class="rounded-md bg-[#101013] p-5 px-7 shadow-xl h-max">
             <h4 class="text-shadow-[#eee] pb-3 text-center font-[Nunito] font-medium text-green-300">Moderation</h4>
             <div class="flex flex-col gap-1">
-
               <!-- [[ Command Simple]] -->
               <div class="flex items-center gap-2">
                 <p class="font-[Nunito] text-slate-300">k!mute - Delete write permissions</p>
@@ -81,7 +80,7 @@
               </div>
 
               <!-- [[ Command Avanced ]] -->
-              <div class="flex mt-3 flex-col gap-2 rounded-lg bg-[#151516] p-2 px-3 font-[Nunito] text-slate-200 opacity-40 mb-5">
+              <div class="mt-3 mb-5 flex flex-col gap-2 rounded-lg bg-[#151516] p-2 px-3 font-[Nunito] text-slate-200 opacity-40">
                 This command allow to you mute/no allow writte someone person.
                 <strong class="rounded-lg bg-[#101013] p-2 px-4">k!mute @user</strong>
               </div>
@@ -95,12 +94,12 @@
               <!-- [[ Command Avanced ]] -->
 
               <!-- [[ Generalemnte cuando esta oculto el flex que esta debajo de esto, pasa a hidden y haci en contra versa para ocultar]] -->
-              <div class="hidden mt-3 flex-col gap-2 rounded-lg bg-[#151516] p-2 px-3 font-[Nunito] text-slate-200 opacity-40 mb-5">
+              <div class="mt-3 mb-5 hidden flex-col gap-2 rounded-lg bg-[#151516] p-2 px-3 font-[Nunito] text-slate-200 opacity-40">
                 Warn someone, a certain number of warnings will mean an automatic warning action.
                 <strong class="rounded-lg bg-[#101013] p-2 px-4">k!warn @user < reason > </strong>
               </div>
 
-               <!-- [[ Command Simple]] -->
+              <!-- [[ Command Simple]] -->
               <div class="flex items-center gap-2">
                 <p class="font-[Nunito] text-slate-300">k!ban - Ban user from the server</p>
                 <svg class="h-6 w-6 text-green-300" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9" /></svg>
@@ -109,9 +108,54 @@
               <!-- [[ Command Avanced ]] -->
 
               <!-- [[ Generalemnte cuando esta oculto el flex que esta debajo de esto, pasa a hidden y haci en contra versa para ocultar]] -->
-              <div class="flex mt-3 flex-col gap-2 rounded-lg bg-[#151516] p-2 px-3 font-[Nunito] text-slate-200 opacity-40 mb-5">
+              <div class="mt-3 mb-5 flex flex-col gap-2 rounded-lg bg-[#151516] p-2 px-3 font-[Nunito] text-slate-200 opacity-40">
                 This allows you to ban a user permanently, preventing them from entering the server until k!unban is used to allow their entry again
                 <strong class="rounded-lg bg-[#101013] p-2 px-4">k!ban @user < reason > </strong>
+              </div>
+            </div>
+          </div>
+
+          <div class="rounded-md bg-[#101013] p-5 px-7 shadow-xl">
+            <h4 class="text-shadow-[#eee] pb-3 text-center font-[Nunito] font-medium text-indigo-300">Desing</h4>
+            <div class="flex flex-col gap-1">
+              <!-- [[ Command Simple]] -->
+              <div class="flex items-center gap-2">
+                <p class="font-[Nunito] text-slate-300">k!color from - Get colors from img</p>
+                <svg class="h-6 w-6 text-green-300" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9" /></svg>
+              </div>
+
+              <!-- [[ Command Avanced ]] -->
+              <div class="mt-3 mb-5 flex flex-col gap-2 rounded-lg bg-[#151516] p-2 px-3 font-[Nunito] text-slate-200 opacity-40">
+                This command allow to you get all colors of image on hex.
+                <strong class="rounded-lg bg-[#101013] p-2 px-4">k!color from < image url ></strong>
+              </div>
+
+              <!-- [[ Command Simple]] -->
+              <div class="flex items-center gap-2">
+                <p class="font-[Nunito] text-slate-300">k!colors info - Give info about a color</p>
+                <svg class="h-6 w-6 text-green-300" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9" /></svg>
+              </div>
+
+              <!-- [[ Command Avanced ]] -->
+
+              <!-- [[ Generalemnte cuando esta oculto el flex que esta debajo de esto, pasa a hidden y haci en contra versa para ocultar]] -->
+              <div class="mt-3 mb-5 flex flex-col gap-2 rounded-lg bg-[#151516] p-2 px-3 font-[Nunito] text-slate-200 opacity-40">
+                This function helps you to know the information of cotton specific color.
+                <strong class="rounded-lg bg-[#101013] p-2 px-4">k!color info < Hex,  RBG, HLS.. ></strong>
+              </div>
+
+              <!-- [[ Command Simple]] -->
+              <div class="flex items-center gap-2">
+                <p class="font-[Nunito] text-slate-300">k!colors random - Return random color</p>
+                <svg class="h-6 w-6 text-green-300" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9" /></svg>
+              </div>
+
+              <!-- [[ Command Avanced ]] -->
+
+              <!-- [[ Generalemnte cuando esta oculto el flex que esta debajo de esto, pasa a hidden y haci en contra versa para ocultar]] -->
+              <div class="mt-3 mb-5 flex flex-col gap-2 rounded-lg bg-[#151516] p-2 px-3 font-[Nunito] text-slate-200 opacity-40">
+                This function will allow you to return a random color.
+                <strong class="rounded-lg bg-[#101013] p-2 px-4">k!colors ramdom</strong>
               </div>
             </div>
           </div>
